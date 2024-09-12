@@ -1,0 +1,18 @@
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.form form{
+    max-width: 80%;
+    background-color: #F6F6F6;
+    padding: 36px 64px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.08);
+}
+
+.form h2{
+    font-size: 24px;
+}
+
