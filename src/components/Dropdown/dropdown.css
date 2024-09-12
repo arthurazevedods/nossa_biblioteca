@@ -1,20 +1,23 @@
-.dropdown{
-    margin: 24px 0;
-}
-
-.dropdown label{
-    display: block;
-    margin-bottom: 8px;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.dropdown select{
-    background-color: white;
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.06);
+.dropdown {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
     width: 100%;
-    border:none;
-    font-size: 20px;
-    padding: 24px;
-    box-sizing: border-box;
+}
+
+.dropdown label {
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.dropdown select {
+    outline: none;
+    border: 2px solid #264143;
+    box-shadow: 3px 4px 0px 1px #E99F4C;
+    width: 100%;
+    padding: 12px 5px;
+    border-radius: 4px;
+    font-size: 15px;
 }
